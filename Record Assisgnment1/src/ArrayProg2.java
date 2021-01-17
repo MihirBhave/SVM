@@ -26,7 +26,7 @@ public class ArrayProg2 {
 
         for(int i=0;i<n;i++){
             deviation = totalMarks[i] - avg;
-            System.out.println("The deviation of "+name[i]+" is "+totalMarks[i]);
+            System.out.println("The deviation of "+name[i]+" is "+deviation);
         }
     }
 }

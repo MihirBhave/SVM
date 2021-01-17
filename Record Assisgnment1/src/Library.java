@@ -31,11 +31,11 @@ public class Library {
         }
 
         else if(days>7 && days<=15){
-            fine = 3.5 + (days-7)*0.75;
+            fine = days-7*0.75;
         }
 
         else if(days>15){
-            fine = 3.5 + 5.25 + (days-15)*1;
+            fine =days-15*1;
         }
     }
 
